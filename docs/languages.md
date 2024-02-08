@@ -11,6 +11,6 @@ func main(){
 }
 ```
 - Typescript
-- SQL
+- SQL: `SELECT * FROM ...`
 ## Heading 2
 This just a demo.

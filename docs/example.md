@@ -1,21 +1,7 @@
----
-__Advertisement :)__
-
-- __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image
-  resize in browser.
-- __[babelfish](https://github.com/nodeca/babelfish/)__ - developer friendly
-  i18n with plurals support and easy syntax.
-
-You will like those projects!
-
----
-
-# h1 Heading 8-)
+# h1 Heading
 ## h2 Heading
 ### h3 Heading
 #### h4 Heading
-##### h5 Heading
-###### h6 Heading
 
 
 ## Horizontal Rules
@@ -31,26 +17,30 @@ ___
 
 Enable typographer option to see result.
 
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
+`(c)` = (c) 
 
-test.. test... test..... test?..... test!....
+`(r)` = (r)
 
-!!!!!! ???? ,,  -- ---
+`(tm)` = (tm)
 
-"Smartypants, double quotes" and 'single quotes'
+`+/-` = +/-
+
+`1/2` = 1/2 
+
+`-->` = --> sowie `<--` = <--
 
 
 ## Emphasis
 
 **This is bold text**
 
-__This is bold text__
+__This is bold text as well__
 
 *This is italic text*
 
-_This is italic text_
+_This is italic text too_
 
-~~Strikethrough~~
+~~Strikethrough text~~
 
 
 ## Blockquotes
@@ -58,12 +48,12 @@ _This is italic text_
 
 > Blockquotes can also be nested...
 >> ...by using additional greater-than signs right next to each other...
-> > > ...or with spaces between arrows.
+>>> ...or with spaces between arrows.
 
 
 ## Lists
 
-Unordered
+**Unordered List**
 
 + Create a list by starting a line with `+`, `-`, or `*`
 + Sub-lists are made by indenting 2 spaces:
@@ -73,27 +63,18 @@ Unordered
     - Nulla volutpat aliquam velit
 + Very easy!
 
-Ordered
+**Ordered List**
 
 1. Lorem ipsum dolor sit amet
 2. Consectetur adipiscing elit
 3. Integer molestie lorem at massa
 
 
-1. You can use sequential numbers...
-1. ...or keep all the numbers as `1.`
-
-Start numbering with offset:
-
-57. foo
-1. bar
-
-
 ## Code
 
 Inline `code`
 
-Indented code
+Indented code:
 
     // Some comments
     line 1 of code
@@ -101,13 +82,13 @@ Indented code
     line 3 of code
 
 
-Block code "fences"
+Block code with "fences":
 
 ```
-Sample text here...
+Sample code here...
 ```
 
-Syntax highlighting
+Syntax highlighting is possible:
 
 ``` js
 var foo = function (bar) {
@@ -136,17 +117,16 @@ Right aligned columns
 
 ## Links
 
-[link text](http://dev.nodeca.com)
+[MeKo Homepage](https://meko.de)
 
-[link with title](http://nodeca.github.io/pica/demo/ "title text!")
+[MeKo Homepage](http://nodeca.github.io/pica/demo/ "Link zur MeKo Homepage")
 
 Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
 
 
 ## Images
 
-![Minion](https://octodex.github.com/images/minion.png)
-![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
+![MeKo](http://meko.de/images/2022/11/15/meko-headquarters-2022-hd.jpg)
 
 Like links, Images also have a footnote style syntax
 
