@@ -1,3 +1,9 @@
+---
+title: Markdown Cheatsheet
+---
+# Headings
+You can set headings (`h1` - `h6`)
+
 # h1 Heading
 ## h2 Heading
 ### h3 Heading
@@ -119,7 +125,7 @@ Right aligned columns
 
 [MeKo Homepage](https://meko.de)
 
-[MeKo Homepage](http://nodeca.github.io/pica/demo/ "Link zur MeKo Homepage")
+[MeKo Homepage (with tooltip on hover)](http://nodeca.github.io/pica/demo/ "Link zur MeKo Homepage")
 
 Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
 
@@ -137,89 +143,37 @@ With a reference later in the document defining the URL location:
 [id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
 
 
-## Plugins
+## Collapsable blocks
 
-The killer feature of `markdown-it` is very effective support of
-[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
+Possible types of collapsable blocks: `note`, `abstract`, `info`, `tip`, `success`, `question`, `warning`, `danger`, `bug`, `example`, `quote`
+
+??? info
+    This text is hidden until it's revealed.
+
+??? warning
+    This note is hidden until it's revealed.
+
+## Footnotes
+
+Footnotes[^1] have a label[^@#$%] and the footnote's content.
+
+[^1]: This is a footnote content.
+[^@#$%]: A footnote on the label: "@#$%".
 
 
-### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
+## Emojies
 
-> Classic markup: :wink: :cry: :laughing: :yum:
->
-> Shortcuts (emoticons): :-) :-( 8-) ;)
-
-see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
+Classic markup: :wink: :cry: :laughing: :yum:
 
 
-### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
+
+## Subscript / Superscript
 
 - 19^th^
 - H~2~O
 
+## MathExpressions
 
-### [\<ins>](https://github.com/markdown-it/markdown-it-ins)
+You can use LaTeX math expressions:
 
-++Inserted text++
-
-
-### [\<mark>](https://github.com/markdown-it/markdown-it-mark)
-
-==Marked text==
-
-
-### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
-
-Footnote 1 link[^first].
-
-Footnote 2 link[^second].
-
-Inline footnote^[Text of inline footnote] definition.
-
-Duplicated footnote reference[^second].
-
-[^first]: Footnote **can have markup**
-
-    and multiple paragraphs.
-
-[^second]: Footnote text.
-
-
-### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
-
-Term 1
-
-:   Definition 1
-with lazy continuation.
-
-Term 2 with *inline markup*
-
-:   Definition 2
-
-        { some code, part of Definition 2 }
-
-    Third paragraph of definition 2.
-
-_Compact style:_
-
-Term 1
-  ~ Definition 1
-
-Term 2
-  ~ Definition 2a
-  ~ Definition 2b
-
-
-### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
-
-This is HTML abbreviation example.
-
-It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
-
-*[HTML]: Hyper Text Markup Language
-
-### [Custom containers](https://github.com/markdown-it/markdown-it-container)
-
-::: warning
-*here be dragons*
-:::
+$$ f(x) = x^2 $$

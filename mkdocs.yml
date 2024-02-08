@@ -10,14 +10,15 @@ theme:
   features:
     - content.action.view
     - content.action.edit
+    - content.code.copy
     - navigation.tabs
     - navigation.expand
+    - navigation.instant
     # - navigation.footer
     # - navigation.path
+    #- navigation.sections
     - search.suggest
     - search.highlight
-    - navigation.instant
-    #- navigation.sections
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -45,11 +46,13 @@ theme:
       primary: custom
       accent: custom
 markdown_extensions:
+  - footnotes
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem
+  - pymdownx.details
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
@@ -58,8 +61,13 @@ markdown_extensions:
       anchor_linenums: true
       linenums_style: table
   - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 extra_css:
   - stylesheets/extra.css
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
 repo_url: https://github.com/TobiasMeKo/test
 repo_name: TobiasMeKo/wiki
 edit_uri: edit/main/docs/
@@ -72,6 +80,6 @@ plugins:
       branch: main
   - search
 extra_javascript:
-  - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/katex.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
