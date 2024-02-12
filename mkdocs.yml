@@ -1,4 +1,4 @@
-site_name: MeKoRp Docs
+site_name: MeKoRP Docs
 theme:
   name: 'material'
   language: de
@@ -6,7 +6,8 @@ theme:
     repo: fontawesome/brands/github
     edit: material/pencil 
     view: material/eye
-    favicon: images/favicon.ico
+  favicon: assets/favicon.ico
+  logo: assets/MeKo_Logo.png
   features:
     - content.action.view
     - content.action.edit

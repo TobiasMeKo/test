@@ -176,4 +176,6 @@ Classic markup: :wink: :cry: :laughing: :yum:
 
 You can use LaTeX math expressions:
 
-$$ f(x) = x^2 $$
+$$
+f(x) = x^2
+$$
