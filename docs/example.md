@@ -90,19 +90,18 @@ Indented code:
 
 Block code with "fences":
 
-```
-Sample code here...
-```
+```Go linenums="1" title="Test"
+package main
 
-Syntax highlighting is possible:
+import "fmt"
 
-``` js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
+func main(){
+    fmt.println("Hello World!")
+}
 ```
+- Typescript
+- SQL: `SELECT * FROM ...`
+
 
 ## Tables
 
