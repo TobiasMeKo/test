@@ -165,8 +165,7 @@ Footnotes[^1] have a label[^@#$%] and the footnote's content.
 
 Classic markup: :wink: :cry: :laughing: :yum:
 
-
-
+gitignore
 ## Subscript / Superscript
 
 - 19^th^
