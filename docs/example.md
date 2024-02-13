@@ -179,3 +179,16 @@ You can use LaTeX math expressions:
 $$
 f(x) = x^2
 $$
+
+## Diagrams
+
+See [MkDocs Material: Diagrams](https://squidfunk.github.io/mkdocs-material/reference/diagrams/) for more info.
+
+``` mermaid
+graph LR
+  A[Start] --> B{Error?};
+  B -->|Yes| C[Hmm...];
+  C --> D[Debug];
+  D --> B;
+  B ---->|No| E[Yay!];
+```

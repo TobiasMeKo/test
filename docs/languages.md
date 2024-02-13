@@ -1,7 +1,7 @@
 # Languages
 ## Heading 1
 - Go
-```Go
+```Go linenums="1" title="Test"
 package main
 
 import "fmt"
